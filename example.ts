@@ -1,5 +1,4 @@
-import { Device } from './mod.ts';
-import { ColorMode } from './src/colorMode.ts';
+import { ColorMode, Device } from './mod.ts';
 
 const dev = new Device("192.168.2.61", ColorMode.RGB);
 
